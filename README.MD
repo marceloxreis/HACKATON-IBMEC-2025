@@ -1,8 +1,8 @@
-# Tech Path Finder IBMEC - MVP
+# MentorIA Carreiras IBMEC - MVP
 
 ## Descrição do Projeto
 
-O "Tech Path Finder IBMEC" é um aplicativo web desenvolvido como um Produto Mínimo Viável (MVP). Seu objetivo principal é auxiliar alunos dos primeiros períodos dos cursos de Engenharia de Software, Engenharia de Computação e Ciência de Dados do IBMEC a explorarem afinidades com diferentes carreiras na área de tecnologia. Através de um chatbot lúdico e interativo, a aplicação mapeia o perfil do aluno, sugere trilhas de carreira compatíveis e fornece relatórios personalizados para o aluno e para a equipe de Carreiras do IBMEC.
+O "MentorIA Carreiras IBMEC" é um aplicativo web desenvolvido como um Produto Mínimo Viável (MVP). Seu objetivo principal é auxiliar alunos dos primeiros períodos dos cursos de Engenharia de Software, Engenharia de Computação e Ciência de Dados do IBMEC a explorarem afinidades com diferentes carreiras na área de tecnologia. Através de um chatbot lúdico e interativo, a aplicação mapeia o perfil do aluno, sugere trilhas de carreira compatíveis e fornece relatórios personalizados para o aluno e para a equipe de Carreiras do IBMEC.
 
 ## Índice (Opcional, mas recomendado para READMEs longos)
 
