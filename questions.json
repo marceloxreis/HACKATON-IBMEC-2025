@@ -1,0 +1,74 @@
+{
+    "initial_question_id": "q1_inicio",
+    "questions": [
+      {
+        "id": "q1_inicio",
+        "text": "Bem-vindo(a) de volta! Para continuarmos nossa jornada, qual destes mundos tech te parece mais intrigante à primeira vista?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "mundo_logico", "text": "Onde tudo funciona com lógica e sistemas 'invisíveis' (como o motor de um carro).", "next_question_id": "q2_logico_tipo"},
+          {"value": "mundo_visual", "text": "Onde a 'cara' das coisas, o design e a experiência do usuário são o show principal (como a capa de um livro).", "next_question_id": "q2_visual_tipo"},
+          {"value": "mundo_dados", "text": "Onde desvendar segredos escondidos em números e informações é a aventura (como um detetive).", "next_question_id": "q2_dados_tipo"}
+        ]
+      },
+      {
+        "id": "q2_logico_tipo",
+        "text": "Legal! No 'mundo lógico', você prefere construir as engrenagens internas ou garantir que elas funcionem sem parar e de forma eficiente?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "construir_logico", "text": "Construir as engrenagens (Backend).", "next_question_id": "q_texto_motivacao"},
+          {"value": "garantir_logico", "text": "Garantir o funcionamento (DevOps/Infra).", "next_question_id": "q_texto_motivacao"}
+        ]
+      },
+      {
+        "id": "q2_visual_tipo",
+        "text": "Show! No 'mundo visual', seu foco seria em deixar tudo bonito e fácil de usar, ou em como as informações são apresentadas de forma clara?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "bonito_facil_visual", "text": "Deixar bonito e fácil (Frontend/UX).", "next_question_id": "q_texto_motivacao"},
+          {"value": "info_clara_visual", "text": "Apresentar informações de forma clara (Visualização de Dados).", "next_question_id": "q_texto_motivacao"}
+        ]
+      },
+      {
+        "id": "q2_dados_tipo",
+        "text": "Interessante! No 'mundo dos dados', você se vê mais minerando os dados para encontrar ouro (análise) ou construindo os aquedutos para que os dados fluam bem (engenharia)?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "minerar_dados", "text": "Minerando para encontrar ouro (Ciência de Dados).", "next_question_id": "q_texto_motivacao"},
+          {"value": "construir_dados", "text": "Construindo os aquedutos (Engenharia de Dados).", "next_question_id": "q_texto_motivacao"}
+        ]
+      },
+      {
+        "id": "q_texto_motivacao",
+        "text": "Para entendermos um pouco mais sua paixão, o que te motiva a querer trabalhar com tecnologia? (Curta resposta)",
+        "type": "text_input",
+        "next_question_id": "q_ambiente_pref"  
+      },
+      {
+        "id": "q_ambiente_pref",  
+        "text": "Pensando em como você gosta de trabalhar em projetos desafiadores, qual cenário te atrai mais?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "colaborativo_intenso", "text": "Um ambiente super dinâmico, com muita gente e discussões constantes para resolvermos juntos.", "next_question_id": "q_soft_resolucao_grupo"},
+          {"value": "foco_individual", "text": "Um espaço mais calmo, onde posso mergulhar fundo nos problemas com concentração total.", "next_question_id": "q_soft_resolucao_grupo"},
+          {"value": "equilibrio_times", "text": "Uma mistura, com momentos de foco individual e momentos de colaboração em equipe.", "next_question_id": "q_soft_resolucao_grupo"}
+        ]
+      },
+      {
+        "id": "q_soft_resolucao_grupo",  
+        "text": "Imagine que sua equipe está com dificuldade para resolver um bug teimoso. Qual seria sua atitude mais provável?",
+        "type": "multiple_choice",
+        "options": [
+          {"value": "brainstorm_equipe_soft", "text": "Sugerir uma sessão de brainstorming em equipe para todos darem ideias.", "next_question_id": "q_final_agradecimento"},
+          {"value": "pesquisa_solitaria_soft", "text": "Me concentrar em pesquisar intensamente por soluções sozinho(a) primeiro.", "next_question_id": "q_final_agradecimento"},
+          {"value": "abordagem_diferente_soft", "text": "Tentar explicar o problema de uma forma diferente para ver se surgem novas perspectivas.", "next_question_id": "q_final_agradecimento"}
+        ]
+      },
+      {
+        "id": "q_final_agradecimento",
+        "text": "Entendido! Suas respostas são muito valiosas. Estamos chegando perto de identificar seus superpoderes tech!",
+        "type": "info_display",
+        "next_question_id": "END"
+      }
+    ]
+  }
